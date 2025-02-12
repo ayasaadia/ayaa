@@ -1,0 +1,319 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+header {
+    background-color:#4C406E;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    height: 30px;
+    width: 100%;
+}
+.logo {
+    height: 100px;
+    margin: 0;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+nav ul li {
+    margin: 0 60px; /* Adjusted margin for spacing */
+    display: inline-block;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+.logoo {
+    height: 50px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    align-items: flex-start;
+    margin-bottom:20px;
+}
+.about-section {
+    background-color: #f4f4f4; /* Light background */
+    padding: 10px; /* Padding around the section */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    display: flex;
+    flex-direction: column;
+
+}
+.about-section h2 {
+    font-size: 24px; /* Larger font for the heading */
+    color: #4a3c6e; /* Color matching the theme */
+    order: 1;
+}
+.about-section p {
+    line-height: 1.6; /* Improved readability */
+    margin: 10px 0; /* Spacing between paragraphs */
+    order: 3;
+}
+.image{
+    width: 500px;
+    height: 400px;
+    padding: 10px;
+    order: 2;
+}
+.about-container {
+    display: flex;
+    align-items: center;
+}
+
+.tit {
+    width: 40%;
+    margin-top:10px;
+}
+
+.about-text {
+    width: 60%;
+    padding-left: 80px;
+    margin-right:450px;
+}
+.sign-in-section {
+    background:#dcd7d5;;
+    padding: 30px;
+    margin: 40px;
+    width: 450px;
+    height: 670px;
+    box-shadow: 0 4px 6px #6c5f8d;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    margin-right:70px;
+    margin-bottom: 50px;
+}
+.sign-in-section h2 {
+    margin-bottom: 20px;
+}
+.sign-in-section form {
+    display: flex;
+    flex-direction: column;
+}
+.sign-in-section form input {
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color:#BB96C1;
+    border: 1px solid;
+    border-radius: 4px;
+    font-size: 13px;
+    height:50px;
+    margin: 10px;
+    width: calc(100% - 22px); /* Adjusted width for padding */
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+.sign-in-section form button {
+    background-color: #4a3c6e;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.sign-in-section form button:hover {
+    background-color: #3b2f5b;
+}
+.sign-in-section .toggle-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.toggle-buttons button {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    background-color:#BB96C1;
+    margin-right: 5px;
+}
+.toggle-buttons button.active {
+    background-color:#6c5f8d;
+    color: white;
+}
+.or-signup {
+    text-align: center;
+    margin: 5px 0; /* Adds spacing above and below */
+    font-weight: bold; /* Makes the text bold */
+    margin-top: 20px;
+
+}
+
+/* Increase the distance between the form and the sign-in-section */
+hr {
+    margin: 20px 0;
+}
+.input-container {
+    display: flex;
+    flex-direction: column; /* Stack input fields vertically */
+    margin-bottom: 20px;
+}
+input {
+    width: 100%;
+    padding: 20px; /* Increased padding */
+    margin: 10px 0;
+    border: 1px solid #ccc; /* Border for input fields */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.input-container input {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+button {
+    width: 100%;
+    padding: 12px; /* Increased padding */
+    background-color: #6a5acd; /* Button color */
+    color: white;
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+}
+
+footer {
+    background-color:#625580 ; 
+    color: #ffffff;
+    padding: 20px 30px;
+    text-align: center;
+    width:100%;
+}
+
+.containerr {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tata img {
+    height: 100px; /* Adjust as needed */
+}
+ ul {
+    list-style:none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ li  {
+    margin-bottom: 5px;
+    list-style: none;
+    list-style-type: none;
+}
+
+.contact a .menu a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.about{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.form-container h1 {
+    text-align:left;
+    color: #9c8cb9;
+    margin-bottom: 30px;
+}
+
+.form-container input {
+    width: calc(100% - 22px); /* Adjusted width for padding */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.form-container button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #6c5f8d; /* Purple color */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.or-divider {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #999;
+}
+
+.or-divider hr {
+    flex-grow: 1;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+
+.or-divider span {
+    margin: 0 10px;
+}
+
+.social-login {
+    display: flex;
+    justify-content: center;
+}
+
+.social-login button {
+    background-color: transparent;
+    border: none;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.social-login button img {
+    width: 30px;
+    height: 30px;
+}
+.translate-options {
+    display: none;
+    position: absolute;
+    background-color: #6C5F8D;
+    border: 1px solid #ddd;
+    padding: 10px;
+    z-index: 1;
+}
+
+.translate-options.show {
+    display: block;
+}
+
+.translate-options li {
+    margin-bottom: 10px;
+}
+
+.translate-options a {
+    text-decoration: none;
+    color: #333;
+}
+
+.translate-options a:hover {
+    color:#6C5F8D;
+}
